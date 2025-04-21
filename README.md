@@ -1,4 +1,4 @@
-# nextgo CLI
+# xelt
 
 A powerful command-line interface tool for creating Next.js projects with templates and optimizations.
 
@@ -11,36 +11,25 @@ A powerful command-line interface tool for creating Next.js projects with templa
 - User-specific database storage
 - Error handling and logging
 
-## Installation
+
+## Installation from [npmjs.org](https://www.npmjs.com/package/xelt)
 
 ```bash
-# Install globally
-npm install -g xelt
-
-# Or use npx
-npx xelt <command>
+npm i xelt
 ```
+
 
 ## Usage
 
 ```bash
 # Initialize a new project
-xelt --init --name my-project --template supabase --version 15
+npx xelt --init --name my-project --template supabase --version 15
+```
 
-# List all projects
-xelt --list
+or 
 
-# Delete last project
-xelt --delete-last
-
-# Delete all projects
-xelt --delete-all
-
-# View available versions
-xelt --view-versions
-
-# Show help
-xelt --help
+```bash
+npx xelt -i -n my-project -t supabase -v 14
 ```
 
 ## Templates
