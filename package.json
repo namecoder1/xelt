@@ -1,0 +1,56 @@
+{
+  "name": "xelt",
+  "version": "1.0.1",
+  "description": "CLI tool for creating Next.js projects with templates and optimizations",
+  "main": "index.js",
+  "bin": {
+    "xelt": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings ./bin/index.js --start"
+  },
+  "keywords": [
+    "nextjs",
+    "cli",
+    "create-next-app",
+    "templates",
+    "supabase",
+    "sanity",
+    "typescript",
+    "tailwind"
+  ],
+  "author": "Tobia Bartolomei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namecoder1/xelt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/namecoder1/xelt/issues"
+  },
+  "homepage": "https://github.com/namecoder1/xelt#readme",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "arg": "^5.0.2",
+    "better-ajv-errors": "^1.2.0",
+    "chalk": "^5.4.1",
+    "console-table-printer": "^2.12.1",
+    "cosmiconfig": "^9.0.0",
+    "debug": "^4.4.0",
+    "ora": "^8.2.0",
+    "package-up": "^5.0.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "node-options": "--no-warnings",
+  "files": [
+    "bin/",
+    "src/",
+    "db/",
+    "README.md"
+  ]
+}

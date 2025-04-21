@@ -1,0 +1,38 @@
+# Development
+.git
+.github
+.vscode
+.idea
+*.test.js
+*.spec.js
+tests
+test
+coverage
+.nyc_output
+
+# Build
+.next
+out
+build
+dist
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Docs
+docs
+*.md
+!README.md
+
+# Config
+.editorconfig
+.prettierrc
+.eslintrc
+.env*
+
+# Misc
+.cache
+.temp
+.tmp
+*.log 
