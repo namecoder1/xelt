@@ -1,6 +1,6 @@
 {
   "name": "xelt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool for creating Next.js projects with templates and optimizations",
   "main": "index.js",
   "bin": {
