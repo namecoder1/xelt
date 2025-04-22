@@ -51,7 +51,6 @@ async function createNextApp(projectPath, version, template) {
 		'--tailwind',
 		'--eslint',
 		'--app',
-		'--src-dir',
 		'--import-alias "@/*"',
 		'--no-git',
 		'--use-npm',
